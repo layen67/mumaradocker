@@ -12,5 +12,5 @@ sleep 5
 cd /root/mumaradocker/www
 wget https://www.dropbox.com/s/g2nb2nw65yyxz5o/Mumara2.28.tar.gz?dl=0
 tar xzvf Mumara2.28.tar.gz?dl=0
-sed -i -e "s/yourdomain.com/$1/g" /root/mumaradocker/www/inc/db.inc.php;
-sed -i -e "s/password/$2/g" /root/mumaradocker/www/inc/db.inc.php;
+sed -i -e "s/yourdomain.com/$1/g" /root/mumaradocker/www/inc/db.ini.php;
+sed -i -e "s/password/$2/g" /root/mumaradocker/www/inc/db.ini.php;
