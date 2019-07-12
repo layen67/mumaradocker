@@ -35,7 +35,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: zSS8f7N9t
+      MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: mumara
       MYSQL_USER: klayen
       MYSQL_PASSWORD: bD92Hk4Hp
