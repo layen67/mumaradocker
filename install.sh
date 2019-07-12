@@ -9,4 +9,4 @@ docker-compose up -d;
 sleep 5
 cd /root/mumaradocker/www
 wget https://www.dropbox.com/s/g2nb2nw65yyxz5o/Mumara2.28.tar.gz?dl=0
-service docker restart
+tar xzvf Mumara2.28.tar.gz?dl=0
