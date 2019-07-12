@@ -33,6 +33,7 @@ services:
   db:
     container_name: mysql57
     image: mysql:5.7
+    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: zSS8f7N9t
       MYSQL_DATABASE: mumara
@@ -46,6 +47,7 @@ services:
 
   adminer:
     image: javanile/adminer
+    restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=zSS8f7N9t
     ports:
