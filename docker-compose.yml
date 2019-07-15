@@ -59,7 +59,7 @@ services:
         ipv4_address: 172.20.128.4
 
   site-1:
-    image: klayen/webstack
+    image: atsu666/ioncube:5.6
     restart: always
     links:
       - db:db
