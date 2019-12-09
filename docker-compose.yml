@@ -11,7 +11,7 @@ services:
         ipv4_address: 172.20.128.2
     restart: always
     environment:
-      STAGE: 'local'
+#      STAGE: 'reducmarket.xyz'
       NUMBITS: '4096'
 #        FORCE_RENEW: 'true'
       WORKER_PROCESSES: '4'
@@ -24,7 +24,7 @@ services:
       PROXY_READ_TIMEOUT: '900'
       CLIENT_MAX_BODY_SIZE: 30M
       DOMAINS: >-
-          yourdomain.com -> http://172.20.128.5,
+          reducmarket.xyz -> http://172.20.128.5,
     volumes:
       - ./conf.d:/etc/nginx/conf.d/:rw
       - ./ssl_certs:/var/lib/https-portal:rw
